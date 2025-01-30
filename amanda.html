@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Changing Web Page!</title>
+</head>
+
+<h1>page heading</h1>
+    <div id="h1"></div>
+    <script>
+        document.getElementsByTagName("h1")[0].innerHTML = name;
+    </script>
+<h1>page heading</h1>
+    <div id="h1"></div>
+    <script>
+        document.getElementsByTagName("h1")[1].innerHTML = name;
+    </script>
+
+<body>
+    <script>
+        var name = "Amanda";  // string type
+        console.log(name);
+        var age = 19;  //Number type
+        var teacher = false; // Boolean type
+        document.write('Name ' + name + '<br>');  // + is used for string concatentation
+        document.write('Age ' + age + '<br>');  // Try using + with another number and see what happens!
+        document.write('Is teacher? ' + teacher);
+    </script>
+</body>
+
+</html>
