@@ -1,0 +1,77 @@
+/* Style for the entire document */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the main heading */
+h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the secondary heading */
+h2 {
+    color: #333;
+    margin-left: 20px;
+}
+
+/* Style for the paragraph */
+p {
+    color: #666;
+    font-size: 18px;
+    margin: 20px;
+}
+
+/* Style for the buttons */
+input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #45a049;
+}
+
+/* Style for the image */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #ddd;
+}
+
+/* Style for the form */
+form {
+    margin: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
