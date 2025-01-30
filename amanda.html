@@ -19,7 +19,6 @@
 <body>
     <script>
         var name = "Amanda";  // string type
-        console.log(name);
         var age = 19;  //Number type
         var teacher = false; // Boolean type
         document.write('Name ' + name + '<br>');  // + is used for string concatentation
@@ -27,5 +26,17 @@
         document.write('Is teacher? ' + teacher);
     </script>
 </body>
+
+<h3>Output</h3>
+    <div id="output"></div>
+    <script>
+        var names = ["Lisa", "Arturo", "Kimia", "Kevin"]; // Creating an array of strings
+        for (var name of names) {
+            document.write(name + "<br>");
+        }
+        for (var i = 0; i < 10; i++) {
+            document.write(i + "<br>");
+        }
+    </script>
 
 </html>
